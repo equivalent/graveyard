@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2>KMD</h2>
+  <p><%= kmd_time_diff() %></p>
+</div>
