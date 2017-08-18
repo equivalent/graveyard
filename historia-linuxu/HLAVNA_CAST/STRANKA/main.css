@@ -1,0 +1,103 @@
+.hidden {display: none;}
+.exhidden {visibility: hidden;}
+
+.td_up { background-repeat: no-repeat;
+         background-image: url('bg/menu_top.jpg');
+         background-position: bottom;
+         border-width: 0px; 
+        }
+.td_down { background-repeat: no-repeat;
+           background-image: url('bg/menu_bottom.jpg'); 
+           background-position: top; 
+           border-width: 0px; 
+          }
+.td_mid { background-repeat: repeat-y;
+          background-image: url('bg/menu_mid.jpg'); 
+          background-position: top; 
+          border-width: 0px; 
+        }
+
+.td_vertikal_d  { background-repeat: repeat-x; 
+                     background-position: top; 
+                     border-width: 0px; 
+                   }    
+
+.td_vertikal_h  { background-repeat: repeat-x; 
+                     background-position: bottom; 
+                     border-width: 0px; 
+                   }
+                   
+.td_vertikal_l_h  { background-repeat: no-repeat; 
+                     background-position: right bottom; 
+                     border-width: 0px; 
+                    
+                   }                                           
+
+.td_vertikal_p_h  {background-repeat: no-repeat; 
+                     background-position: left bottom; 
+                     border-width: 0px; 
+                  }
+                  
+td_vertikal_l_d   {background-repeat: no-repeat; 
+                     background-position: right top; 
+                     border-width: 0px; 
+                  }    
+
+                  
+td_vertikal_p_d   {background-repeat: no-repeat; 
+                     background-position: left top; 
+                     border-width: 0px; 
+                  }    
+                  
+                  
+td_horizontal_l   {background-repeat: repeat-y; 
+                     background-position: right; 
+                     border-width: 0px;    
+                  } 
+                                                              
+td_horizontal_p   {background-repeat: repeat-y; 
+                     background-position: left; 
+                     border-width: 0px; 
+                  }
+
+.txtinfo { color: #ffd21f; text-align: center; font-weight: bold; vertical-align: bottom; font-size: small; font-variant:small-caps;} 
+.txtmenu { color: #251c01; text-align: left; font-weight: bold; vertical-align: bottom; font-size: small; } 
+.txtnadpis {color: black; text-align: center; font-weight: bold; vertical-align: bottom; font-size: x-large; } 
+.txtoption {color: #ffd21f; text-align: left; font-weight: bold; font-size: large; }
+.txtsprava {color: #ffd21f; text-align: center; font-weight: bold; font-size: normal; }
+.txtuvod {color: black;  font-weight: bold; font-size: normal; }
+.txtuvodr {color: red;  font-weight: bold; font-size: normal; }
+.txtuvodper {color: green;  font-weight: bold; font-size: normal; }
+.txtvelkyerror {color: red; text-align: center; font-weight: bold; vertical-align: bottom; font-size: large; } 
+
+A:visited    {color: #251c01; text-decoration: none; }
+A:link        {color: #251c01; text-decoration: none;}
+A:hover    {color: #ffd21f}
+
+.tdt { text-align: left;                        vertical-align: top; border-width: 0px; background: #fef5cc; border-color: #ffd21f; border-width: 1; border-style: solid;}
+.tdh { text-align: left;                          vertical-align: top; border-width: 0px; background: #fef5cc; border-color: #ffd21f; border-width: 1; border-style: solid;}
+.tdu { text-align: center;  font-weight: bold;    vertical-align: top; border-width: 0px; background: #ffd21f; border-color: #ffd21f; border-width: 1; border-style: solid;}
+.tdo { text-align: left;                        vertical-align: top; border-width: 0px; background: #f6e396; border-color: #ffd21f; border-width: 1; border-style: solid;}
+
+
+
+.input_num      {border: 0px ;  background-image: url('tlacitka/button_number.jpg'); color: black; cursor: Pointer; width: 27 px; height: 20px ; }
+
+.input_but {cursor:pointer; border-width:4px; border-color: #ffd21f; border-style: double; background-color: #f6e396; color: black;  }
+
+.td_logo {  width:500px;}
+
+.table          {background: #fef5cc; border-width:4px; border-style: double; border-color: #ffd21f;}
+.table_bb_farby {background: #fde198; border-width:5px; border-style: double; border-color: #ffd21f;}
+.table_bb_vysky {background: #fde198; border-width:2px; border-style: solid; border-color: #ffd21f;}
+.td_bb_vysky    {border-width:1px; border-style: solid; border-color: #ffd21f;}
+
+
+.select { background: white; border-width:4px; border-color: #ffd21f; border-style: double; }
+.option {  font-weight: bold; }
+
+
+.form_all {background-color: white; border-width:4px; border-color: #ffd21f; border-style: double;}
+.button_all {cursor:pointer; background-color: #f6e396; border-width:4px; border-color: #ffd21f; border-style: double;}
+
+.clickme { border-width: 1px; border-color: black; }

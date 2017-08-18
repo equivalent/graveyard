@@ -1,0 +1,22 @@
+Zhodnotenie autora>
+
+-program som zacal robit : novembri 2006 
+-program som dokoncil : april 2007
+
+-odhadovana cena vytlacenia dokumentacie:
+	  2dokumentacie po 250stran=	500 stran (+ 50 stran pokazenych) 
+	  1 cela napln do tlaciarne 
+	  zviazanie
+		
+	  spolu zhruba 600 az 700 SK
+
+-odhadovana cena elektrickej energie spotrebovanej pri tvorbe programu
+	  nevycislitelne...
+
+-skody na psychyke programatora:
+	  nevycislitelne...
+
+
+
+Zaver: Kopa roboty, a dost som pri tomto zabil cas, ale stalo to zato. No nechcel by som program 
+	robit oznova.
