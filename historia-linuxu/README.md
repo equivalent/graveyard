@@ -10,6 +10,8 @@ git or proper syntax style is or good coding practices are.
 
 But if anyone find this useful feel free to get inspired.
 
+Full ISO and TAR/Zip can be found:
+https://archive.org/details/historia-linuxu-spsjm
 
 Rest of the Description is in Slovak:
 
