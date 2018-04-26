@@ -1,0 +1,2 @@
+require './wallpapers'
+Wallpapers.generate

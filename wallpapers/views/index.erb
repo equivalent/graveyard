@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Wallpapers</title>
+    <script src="public/jquery-3.3.1.min.js"></script>
+    <style>
+      .viewing {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+      small {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="viewing"></div>
+  </body>
+
+  <script>
+    function rand(items) {
+      return items[~~(items.length * Math.random())];
+    }
+    function myRender(item) {
+      //$('.viewing').empty()
+      //$('.viewing').append('<small>' + item + '</small>')
+      $('.viewing').css('background-image','url("public/'+ item +'")');
+
+    }
+
+    function pick(items) {
+      item = rand(items);
+      myRender(item);
+      setInterval(function() {
+        item = rand(items);
+        myRender(item);
+      }, 60000);
+    }
+
+    $( document ).ready(function() {
+      window.assets = <%= Wallpapers.all.to_json %>
+      pick(window.assets)
+    });
+  </script>
+
+<html>
